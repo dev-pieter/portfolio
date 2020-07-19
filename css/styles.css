@@ -120,22 +120,27 @@ html {
 }
 
 .curved-container {
-    width: 25%;
-    margin: 5rem;
-    padding: 2em;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    /* width: 35vw; */
+    margin: 3vw;
+    padding: 2vw;
     background: white;
     border-radius: 21px;
     box-shadow: 5px 10px 15px #404040;
 }
 
 .curved h1 {
-    font-size: 60px;
+    display: inline-block;
+    font-size: 2vw;
     font-family: Josefin Sans;
 }
 
 .curved p {
-    font-size: 20px;
-    padding: 5rem;
+    display: inline-block;
+    font-size: 1vw;
+    padding: 5vw;
     font-family: Montserrat;
 }
 
@@ -170,20 +175,20 @@ html {
 .textContainer{
     max-width: 700px;
     width: 400px;
-    padding-left: 100px;
+    padding-left: 2vw;
     position: relative;
     top: 200px;
 }
 
 .textContainer h1 {
     width: 500px;
-    font-size: 60px;
-    padding-bottom: 20px;
+    font-size: 2vw;
+    padding-bottom: 1vw;
 }
 
 .textContainer p{
-    font-size: 20px;
-    padding-bottom: 20px;
+    font-size: 1vw;
+    padding-bottom: 1vw;
 }
 
 .textContainer button {
