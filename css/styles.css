@@ -48,7 +48,7 @@ html {
 
 .nav-container li {
     font-family: Josefin Sans;
-    font-size: large;
+    font-size: 1em;
     position: relative;
     right: 0;
     display: inline-block;
@@ -66,7 +66,7 @@ html {
 .nav-container a {
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 1vw;
 }
 
 .nav-container li a:hover {
@@ -75,13 +75,13 @@ html {
 }
 
 .spacer1 {
-    width: 600px;
+    width: 30vw;
 }
 
 .logo-text {
     font-family: Montserrat;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 1.25em;
     width: fit-content;
     height: fit-content;
     padding: 10px;
@@ -174,7 +174,7 @@ html {
 
 .textContainer{
     max-width: 700px;
-    width: 400px;
+    width: 20vw;
     padding-left: 2vw;
     position: relative;
     top: 200px;
