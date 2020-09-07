@@ -9,6 +9,8 @@ html {
 
 .background {
     width: 100vw;
+    height: inherit;
+    /* height: 600vh; */
     background-repeat: repeat;
     background-position: center center;
     background-size: cover;
@@ -103,21 +105,47 @@ html {
     min-width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
-    overflow-y: scroll;
+    height: 100vh;
     justify-content: center;
+}
+
+.main_img {
+    position: relative;
+    height: 40vh;
+    top: 15vh;
+    box-shadow: 5px 10px 15px #404040;
+    border-radius: 21px;
+}
+
+.skills {
+    display: flex;
+    background: lightgray;
+    color: black;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 50px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 4em;
 }
 
 .curved {
     background: lightgray;
     color: black;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1.5fr));
     width: 100%;
     height: 70vh;
     justify-content: center;
     align-content: center;
     float: right;
 }
+
 
 .curved-container {
     display: inline;
@@ -133,20 +161,17 @@ html {
 
 .curved h1 {
     display: inline-block;
-    font-size: 2vw;
+    font-size: 2.5em;
     font-family: Josefin Sans;
 }
 
 .curved p {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 1em;
     padding: 5vw;
     font-family: Montserrat;
 }
 
-.smittsec {
-    padding-bottom: 380px;
-}
 
 .image0 {
     position: relative;
@@ -167,23 +192,48 @@ html {
 .image1 {
     position: relative;
     top: 30%;
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     margin:-60px 0 0 -60px;
 }
 
 .textContainer{
     max-width: 700px;
-    width: 20vw;
+    width: 26vw;
     padding-left: 2vw;
     position: relative;
-    top: 200px;
+    top: 18vh;
+    
 }
+
+.edu-cont {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.edu-sec {
+    margin-top: -200px;
+    height: 100%;
+    width: 70vw;
+    background-color: white;
+    box-shadow: 5px 10px 15px #404040;
+    border-radius: 21px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 2em;
+}
+
 
 .textContainer h1 {
     width: 500px;
-    font-size: 2vw;
-    padding-bottom: 1vw;
+    font-size: 5em;
+}
+
+.textContainer h2 {
+    padding-bottom: 2vh;
+    padding-left: 4px;
 }
 
 .textContainer p{
@@ -232,8 +282,8 @@ html {
 .image2 {
     border-radius: 21px;
     position: relative;
-    left: 50px;
-    width: 700px;
+    left: 5em;
+    width: 30vw;
     margin-right: -200px;
     box-shadow: 5px 10px 15px #404040;
 }
@@ -241,9 +291,9 @@ html {
 .image3 {
     border-radius: 21px;
     position: relative;
-    top: 50px;
-    left: 110px;
-    width: 600px;
+    top: 5em;
+    left: 6em;
+    width: 30vw;
     margin-top: 300px;
     box-shadow: 5px 10px 15px #404040;
 }
@@ -274,11 +324,10 @@ html {
     border-radius: 21px;
     position: relative;
     right: 200px;
-    top: 50px;
-    width: 700px;
+    top: 350px;
+    width: 30vw;
     margin-left: -200px;
     margin-right: -100px;
-    margin-top: 400px;
     box-shadow: 5px 10px 15px #404040;
     z-index: 1;
 }
@@ -287,9 +336,8 @@ html {
     border-radius: 21px;
     position: relative;
     right: 200px;
-    width: 700px;
-    margin-left: -200px;
-    margin-top: 0px;
+    width: 30vw;
+    margin-left: -100px;
     box-shadow: 5px 10px 15px #404040;
 }
 
@@ -304,3 +352,9 @@ html {
     margin-top: 400px;
     margin-left: -450px;
 }
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+  }
