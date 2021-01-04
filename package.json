@@ -4,7 +4,7 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://pietabrood.github.io/portfolio",
+  "homepage": "https://pietabrood.github.io/Portfolio/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -27,6 +27,7 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
+    "git": "^0.1.5",
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",

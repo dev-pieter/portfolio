@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'pieter2.jpg',
+  paragraphOne: 'A passionate programmer with a mind for creating innovative and efficient code through the utilization of object orientated methods. I am an independent individual, able to follow established procedures and work under little to no supervision.',
+  paragraphTwo: 'I am a student at the university of pretoria (second year level) studying towards a degree in Bsc IT. ',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1b6IEE-8cwGHSyKBxx1OksWqr-xbH-CoV/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -58,8 +58,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'email',
+  email: 'pieter_nortje@outlook.com',
 };
 
 // FOOTER DATA
